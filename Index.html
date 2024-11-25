@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionNow</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>FashionNow</h1>
+    <header class="header">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slider-1" src="img/greenn.jpg" alt="">
+                <img id="slider-2" src="img/look.jpg" alt="">
+                <img id="slider-3" src="img/camp.jpg" alt="">
+                <img id="slider-4" src="img/conve.jpg" alt="">
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+                <a href="#slider-4"></a>
+            </div>
+                  </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a> </li>
+                <li><a href="#" onclick="mostrarSeccion('Productos')">Productos</a> </li>
+                <li class="dropdown">
+                  <a href="#">Servicios</a>
+                  <ul class="dropdown-content">
+                    <li><a href="#"onclick="mostrarSeccion('Modatop')"></a>Moda top</a></li>
+                    <li><a href="#"onclick="mostrarSeccion('RopaMasculina')"></a>RopaMasculina</a></li>
+                    <li><a href="#"onclick="mostrarSeccion('Faldas')"></a>Faldas</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" onclick="mostrarSeccion('Contactos')">Contactos</a> </li>
+            </ul>
+        </nav>
+
+    <div id="contenido">
+        <section id="inicio">
+            <h2>Bienvenido a la introduccion de lo que se encontrara en esta pagina</h2>
+            <p>Bienvenidos a FashionNow, donde la moda encuentra su auténtica expresión.
+
+                En un mundo donde la apariencia es un reflejo de nuestra personalidad, es esencial encontrar ropa que no solo se vea bien, 
+                sino que también te haga sentir increíble. En [Nombre de la Tienda], nos apasiona darte acceso a las últimas tendencias en moda, combinando estilo,
+                 comodidad y calidad en cada prenda.
+                
+                Imagina un lugar donde cada pieza de ropa cuenta una historia, donde los colores y las texturas se entrelazan para crear un estilo único que se adapte a ti.
+                 Desde elegantes atuendos para esa ocasión especial hasta conjuntos informales para tus días más relajados, nuestra amplia selección está diseñada para realzar tu belleza y confianza.
+                  Trabajamos con diseñadores innovadores y marcas reconocidas para ofrecerte una variedad de estilos que se ajusten a cada personalidad y ocasión.
+                
+                Pero no solo se trata de la ropa. En [Nombre de la Tienda], creemos que comprar ropa debe ser una experiencia placentera.
+                 Nuestro equipo de expertos en moda está aquí para ofrecerte asesoría personalizada, asegurándose de que encuentres las prendas que más te favorecen
+                  y se alinean con tu estilo personal. Ya sea que estés buscando ese vestido perfecto para una cena, una chaqueta que complemente tu look diario o accesorios que añadan un toque especial,
+                   estamos aquí para hacer que tu experiencia de compra sea inolvidable.
+                
+                Además, nos preocupamos por el planeta, por lo que también ofrecemos una selección de ropa sostenible.
+                 Nos esforzamos por apoyar prácticas éticas y responsables, asegurándonos de que cada pieza no solo te haga lucir bien, sino que también haga del mundo un lugar mejor.
+                  Creemos que la moda puede ser hermosa y sostenible al mismo tiempo, y queremos que tú también formes parte de esta revolución.
+                
+                Explora nuestro catálogo en línea, donde cada clic te acercará a nuevas tendencias y estilos emocionantes. Ofrecemos envío rápido y devoluciones sin complicaciones, porque tu satisfacción es nuestra prioridad.
+            
+                Así que no esperes más. ¡Únete a la comunidad de FashionNow descubre un mundo de moda que te invita a ser auténtico y a destacar en cada paso que des!</p>
+        </section>
+
+        <section id="Modatop" style="display: none;">
+            <h2>Perritos en Urgencia</h2>
+            <p>Estos perritos necesitan ser adoptados con prioridad debido a situaciones especiales.</p>
+        </section>
+
+        <section id="RopaMasculina" style="display: none;">
+            <h2>Perritos de Larga Estadía</h2>
+            <p>Estos perritos han estado con nosotros por más tiempo y merecen una oportunidad para encontrar su hogar definitivo.</p>
+        </section>
+
+        <section id="Faldas" style="display: none;">
+            <h2>Perritos Especiales</h2>
+            <p>Estos perritos tienen condiciones o necesidades especiales y buscan un hogar adecuado para ellos.</p>
+        </section>
+    </div>
+    </header>
+</body>
+</html>
